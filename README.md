@@ -1,29 +1,33 @@
-Parking System 🚗🚌🏍️
+# Parking System 🚗🚌🏍️
+
 A simple Car Parking System developed in C++ using Object-Oriented Programming (OOP) concepts. It allows users to park, remove, search, and calculate parking fees for vehicles easily.
 
-✨ Features
-Park Vehicle (Car, Bus, Bike)
+# ✨ Features
 
-Remove Vehicle by ID
+* Park Vehicle (Car, Bus, Bike)
 
-Display All Parked Vehicles
+* Remove Vehicle by ID
 
-Search Vehicle by ID
+* Display All Parked Vehicles
 
-Calculate Parking Fee based on Vehicle Type
+* Search Vehicle by ID
 
-Auto-Generated Unique ID for every vehicle
+* Calculate Parking Fee based on Vehicle Type
 
-Input Validation for string and numeric inputs
+* Auto-Generated Unique ID for every vehicle
 
-📚 Technologies Used
-C++
+* Input Validation for string and numeric inputs
 
-Object-Oriented Programming (Classes, Inheritance)
+# 📚 Technologies Used
 
-Dynamic Memory Management
+* C++
 
-🏛️ Folder Structure
+* Object-Oriented Programming (Classes, Inheritance)
+
+* Dynamic Memory Management
+
+# 🏛️ Folder Structure
+
 main.cpp --- Main menu and user interface
 Parking.cpp --- Parking system logic
 vehicle.cpp --- Base vehicle class
@@ -34,16 +38,18 @@ bus.h --- Header and definition of Bus class
 bike.h --- Header and definition of Bike class
 parkingApp.exe --- Compiled executable
 README.md --- Project documentation
-🚀 How to Compile and Run
-Open terminal in the project directory.
 
-Compile using g++:
+# 🚀 How to Compile and Run
 
-g++ main.cpp Parking.cpp Vehicle.cpp -o parkingApp
-Run the program:
+* Open terminal in the project directory.
 
-./parkingApp.exe
-📋 How Parking Fee is Calculated
+* Compile using g++:
+
+       g++ main.cpp Parking.cpp Vehicle.cpp -o parkingApp
+* Run the program:
+
+      ./parkingApp.exe
+# 📋 How Parking Fee is Calculated
 Vehicle Type Fee
 Car: 50
 Bus: 100
