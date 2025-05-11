@@ -44,7 +44,7 @@ A simple Car Parking System developed in C++ using Object-Oriented Programming (
 
 * Compile using g++:
 
-       g++ main.cpp Parking.cpp Vehicle.cpp -o parkingApp
+       g++ main.cpp Parking.cpp vehicle.cpp -o parkingApp
 * Run the program:
 
       ./parkingApp.exe
